@@ -19,13 +19,13 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```python
-client = PplussubscriptionpapiClient(
+client = PearsonsubscriptionsapiClient(
     environment=Environment.PRODUCTION,
     default_host='www.example.com'
 )
 ```
 
-## pplus-subscription-papi Client
+## Pearson Subscriptions API Client
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 

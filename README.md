@@ -1,5 +1,5 @@
 
-# Getting Started with pplus-subscription-papi
+# Getting Started with Pearson Subscriptions API
 
 ## Building
 
@@ -10,51 +10,51 @@ Python and PIP executables should be defined in your PATH. Open command prompt a
 * Using command line, navigate to the directory containing the generated files (including `requirements.txt`) for the SDK.
 * Run the command `pip install -r requirements.txt`. This should install all the required dependencies.
 
-![Building SDK - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&step=installDependencies)
+![Building SDK - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&step=installDependencies)
 
 ## Installation
 
-The following section explains how to use the pplussubscriptionpapi library in a new project.
+The following section explains how to use the pearsonsubscriptionsapi library in a new project.
 
 ### 1. Open Project in an IDE
 
 Open up a Python IDE like PyCharm. The basic workflow presented here is also applicable if you prefer using a different editor or IDE.
 
-![Open project in PyCharm - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&step=pyCharm)
+![Open project in PyCharm - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&step=pyCharm)
 
 Click on `Open` in PyCharm to browse to your generated SDK directory and then click `OK`.
 
-![Open project in PyCharm - Step 2](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&step=openProject0)
+![Open project in PyCharm - Step 2](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&step=openProject0)
 
 The project files will be displayed in the side bar as follows:
 
-![Open project in PyCharm - Step 3](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&projectName=pplussubscriptionpapi&step=openProject1)
+![Open project in PyCharm - Step 3](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&projectName=pearsonsubscriptionsapi&step=openProject1)
 
 ### 2. Add a new Test Project
 
 Create a new directory by right clicking on the solution name as shown below:
 
-![Add a new project in PyCharm - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&projectName=pplussubscriptionpapi&step=createDirectory)
+![Add a new project in PyCharm - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&projectName=pearsonsubscriptionsapi&step=createDirectory)
 
 Name the directory as "test".
 
-![Add a new project in PyCharm - Step 2](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&step=nameDirectory)
+![Add a new project in PyCharm - Step 2](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&step=nameDirectory)
 
 Add a python file to this project.
 
-![Add a new project in PyCharm - Step 3](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&projectName=pplussubscriptionpapi&step=createFile)
+![Add a new project in PyCharm - Step 3](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&projectName=pearsonsubscriptionsapi&step=createFile)
 
 Name it "testSDK".
 
-![Add a new project in PyCharm - Step 4](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&projectName=pplussubscriptionpapi&step=nameFile)
+![Add a new project in PyCharm - Step 4](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&projectName=pearsonsubscriptionsapi&step=nameFile)
 
 In your python file you will be required to import the generated python library using the following code lines
 
 ```python
-from pplussubscriptionpapi.pplussubscriptionpapi_client import PplussubscriptionpapiClient
+from pearsonsubscriptionsapi.pearsonsubscriptionsapi_client import PearsonsubscriptionsapiClient
 ```
 
-![Add a new project in PyCharm - Step 5](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&projectName=pplussubscriptionpapi&libraryName=pplussubscriptionpapi.pplussubscriptionpapi_client&className=PplussubscriptionpapiClient&step=projectFiles)
+![Add a new project in PyCharm - Step 5](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&projectName=pearsonsubscriptionsapi&libraryName=pearsonsubscriptionsapi.pearsonsubscriptionsapi_client&className=PearsonsubscriptionsapiClient&step=projectFiles)
 
 After this you can write code to instantiate an API client object, get a controller object and  make API calls. Sample code is given in the subsequent sections.
 
@@ -62,11 +62,11 @@ After this you can write code to instantiate an API client object, get a control
 
 To run the file within your test project, right click on your Python file inside your Test project and click on `Run`
 
-![Run Test Project - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Pplussubscriptionpapi-Python&projectName=pplussubscriptionpapi&libraryName=pplussubscriptionpapi.pplussubscriptionpapi_client&className=PplussubscriptionpapiClient&step=runProject)
+![Run Test Project - Step 1](https://apidocs.io/illustration/python?workspaceFolder=Pearsonsubscriptionsapi-Python&projectName=pearsonsubscriptionsapi&libraryName=pearsonsubscriptionsapi.pearsonsubscriptionsapi_client&className=PearsonsubscriptionsapiClient&step=runProject)
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -86,7 +86,7 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```python
-client = PplussubscriptionpapiClient(
+client = PearsonsubscriptionsapiClient(
     environment=Environment.PRODUCTION,
     default_host='www.example.com'
 )
@@ -94,12 +94,12 @@ client = PplussubscriptionpapiClient(
 
 ## List of APIs
 
-* [Health](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.0/doc/controllers/health.md)
-* [Subscriptions](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.0/doc/controllers/subscriptions.md)
+* [Health](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.1/doc/controllers/health.md)
+* [Subscriptions](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.1/doc/controllers/subscriptions.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.0/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.0/doc/http-response.md)
-* [HttpRequest](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.0/doc/http-request.md)
+* [Utility Classes](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.1/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.1/doc/http-response.md)
+* [HttpRequest](https://www.github.com/sdks-io/pearson-subscriptions-sdk-python/tree/1.0.1/doc/http-request.md)
 
